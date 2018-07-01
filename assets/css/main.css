@@ -1896,8 +1896,7 @@ article:last-child {
   width: 50%;
   margin: 0 0 2em 0;
   margin-left: 25%;
-  transform: rotate(90deg);
-  image-orientation: from-image
+  
 }
 
 .image.left {
