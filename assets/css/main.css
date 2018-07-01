@@ -1894,7 +1894,7 @@ article:last-child {
 .image.featured {
   width: 50%;
   margin: 0 0 2em 0;
-  
+  image-orientation: from-image
 }
 
 .image.left {
