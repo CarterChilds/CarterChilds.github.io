@@ -1868,6 +1868,8 @@ margin: 0 12px
 .skills-logo-node {
   height: 110px;
   width: 110px;
+  position: relative;
+  top: 5px
 }
 
 .skills-logo-post{
@@ -1880,7 +1882,7 @@ margin: 0 12px
   height: 70px;
   width: 130px;
   position: relative;
-  bottom:10px;
+  bottom:15px;
   right: 8px
 
 }
