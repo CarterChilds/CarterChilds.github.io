@@ -1842,6 +1842,17 @@ container {
   }
 }
 
+.frontend-images {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap
+}
+
+.backend-images {
+  display: flex;
+  justify-content: space-evenly;
+}
+
 .skills-logos {
   height: 100px;
   width: 100px;
@@ -1855,12 +1866,14 @@ container {
 
 .skills-logos-redux {
   height: 76px;
-  position: relative;
-  bottom: 10px;
+position: relative;
+top: 17px;
   margin: 0 12px
 }
 
 .skills-logos-vue {
+position: relative;
+top: 10px;
 height: 89px;
 margin: 0 12px
 }
@@ -1869,12 +1882,15 @@ margin: 0 12px
   height: 110px;
   width: 110px;
   position: relative;
-  top: 5px
+  top: 10px;
+ 
 }
 
 .skills-logo-post{
-  height: 88px;
-  width: 88px;
+  height: 83px;
+  width: 83px;
+  position: relative;
+  top: 30px
 
 }
 
@@ -1882,10 +1898,49 @@ margin: 0 12px
   height: 70px;
   width: 130px;
   position: relative;
-  bottom:15px;
-  right: 8px
+  top: 28px;
 
 }
+
+.wrapper .text {
+  position:relative;
+  bottom:25px;
+  left:0px;
+  visibility:visible;
+  color: black;
+  height: 1px
+  }
+  
+  .wrapper:hover .text {
+  visibility:visible;
+  }
+
+  .wrapper .text-redux {
+    position: relative;
+    top: 3px;
+    color: black;
+  }
+
+  .wrapper .text-vue {
+    position: relative;
+    bottom: 9px;
+    color: black;
+  }
+
+  .wrapper .text-express {
+    position: relative;
+    top: 19px;
+    color: black;
+  }
+
+  .wrapper .text-post {
+    position: relative;
+    top: 11px;
+    color: black;
+  }
+
+
+
 
 /* Sections/Article */
 
